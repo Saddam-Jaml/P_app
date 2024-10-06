@@ -6,10 +6,4 @@ new ADRA app
 
 mit# P_app
 # P_app
-# P_app
-# P_app
-# P_app
-# P_app
-# p_app
-# Proc.
-# P_app
+

@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:EP-{#####} ",
+ "creation": "2024-09-26 20:15:21.949788",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "source_data_section",
+  "from_location",
+  "needs_return",
+  "column_break_qzdk",
+  "posting_date",
+  "posting_time",
+  "section_break_2vuz",
+  "to_location",
+  "column_break_xitf",
+  "requester",
+  "projectd",
+  "item_section",
+  "item_tab",
+  "purpuose_section",
+  "comment",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "source_data_section",
+   "fieldtype": "Section Break",
+   "label": "Source Data"
+  },
+  {
+   "fieldname": "from_location",
+   "fieldtype": "Link",
+   "label": "From",
+   "options": "TD"
+  },
+  {
+   "default": "0",
+   "fieldname": "needs_return",
+   "fieldtype": "Check",
+   "label": "Return Required"
+  },
+  {
+   "fieldname": "column_break_qzdk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "posting_time",
+   "fieldtype": "Time",
+   "label": "Posting Time"
+  },
+  {
+   "fieldname": "section_break_2vuz",
+   "fieldtype": "Section Break",
+   "label": "Destinantion Data "
+  },
+  {
+   "fieldname": "to_location",
+   "fieldtype": "Link",
+   "label": "To",
+   "options": "TD"
+  },
+  {
+   "fieldname": "column_break_xitf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "requester",
+   "fieldtype": "Link",
+   "label": "Request by",
+   "options": "User"
+  },
+  {
+   "fieldname": "projectd",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "item_section",
+   "fieldtype": "Section Break",
+   "label": "Items"
+  },
+  {
+   "fieldname": "purpuose_section",
+   "fieldtype": "Section Break",
+   "label": "Purpuose"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Text",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Exit Permission",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "item_tab",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Items",
+      "reqd": 0,
+    "in_list_view": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-10-05 17:25:40.476131",
+ "modified_by": "Administrator",
+ "module": "ADRA P app",
+ "name": "Exit Permission",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

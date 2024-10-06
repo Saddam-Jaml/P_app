@@ -4,6 +4,14 @@ app_publisher = "saddam"
 app_description = "new ADRA app"
 app_email = "saddam88jaml@gmail.com"
 app_license = "mit"
+fixtures =["Custom Field"]
+
+
+doctype_js = {
+    "Exit Permission": "public/js/exit_permission.js",
+    "Return Tracker": "public/js/return_tracker.js"
+}
+
 
 # Apps
 # ------------------
@@ -129,9 +137,9 @@ app_license = "mit"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+#override_doctype_class = {
+ #	"Sales Order": "p_app.overrides.Sales_Order.CustomSalesOrder"
+#}
 
 # Document Events
 # ---------------
